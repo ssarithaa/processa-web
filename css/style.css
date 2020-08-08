@@ -8,14 +8,21 @@ body {
     text-transform: uppercase;
     color: #303030;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   h4 {
     font-size: 19px;
     line-height: 1.375em;
     color: #303030;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+  }  
+  p {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 15px;
   }  
   .jumbotron {
     background-color:fff;
@@ -24,7 +31,7 @@ body {
     font-family: Montserrat, sans-serif;
   }
   .container-fluid {
-    padding: 60px 50px;
+    padding: 40px 20px;
   }
   .bg-grey {
     background-color: #f6f6f6 ;
@@ -234,6 +241,14 @@ body {
   box-shadow: 10px 10px 5px rgb(189, 170, 181);
   border-radius: 10px;
 }
+
+.list{
+  font-size: 19px;
+    line-height: 10px;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
 /* SCROLL BAR */
 /* width */
 ::-webkit-scrollbar {
@@ -256,3 +271,4 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: purple; 
 }
+
