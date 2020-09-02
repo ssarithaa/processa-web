@@ -128,7 +128,7 @@ body {
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: white !important;
-    background-color: purple !important;
+    background-color: #6a469c !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -248,17 +248,17 @@ body {
   cursor: pointer;
 }
 .shadow_div:hover {
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
   transition: 1s ease;
   cursor: pointer;
 }
 
 
 .list{
-  font-size: 19px;
-    line-height: 10px;
+    font-size: 19px;
+    line-height: 20px;
     color: #303030;
     font-weight: 400;
     margin-bottom: 15px;
@@ -283,30 +283,35 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: purple; 
+  background: #6a469c; 
 }
 .logo-small {
-  color: purple;
+  color: #6a469c;
   font-size: 75px;
 }
 
 .gradient-div {
-  background: radial-gradient(rgb(222, 136, 243), white);
+  background: radial-gradient(#cbadf5, white);
 }
 
 .logoMenu {
   color:blueviolet;
-  font-weight: bolder;
+  font-weight: bold;
 }
 .sidelogo
 {
-  opacity:1;
-  transition: 1s ease;
+  opacity:.8;
+  transition: 1s ease-in;
   cursor: pointer;
 }
 .sidelogo:hover
 {
-  opacity:0.4;
+  opacity:1;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
   transition: 1s ease;
   cursor: pointer;
+  color: #6a469c;
+  font-weight: bolder;
 }
