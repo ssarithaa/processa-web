@@ -187,21 +187,41 @@ body {
     top: 0;
     bottom: auto;
 }
-  .carousel-heading {
-    background: rgba(255, 255, 255, 0.7); color: blueviolet;
+  .carousel-heading  {
+    background: rgba(93, 79, 121, 0.7); 
     /* border-radius: 20px;
     text-align: left;
     padding: 5px 5px 5px 5px; */
-   
+    
     padding: 5px 5px 5px 5px; 
+    color: white;
+    
     /* -moz-border-radius: 50%;
     -webkit-border-radius: 50%; */
+    border-radius: 20px;
+  }
+  .carousel-heading a {
+     
+    padding: 5px 5px 5px 5px; 
+    color: white;
     border-radius: 20px;
   }
 
   .carousel .item {
     height: 400px;
     
+  }
+
+  .carousel-desc ,.carousel-desc span, .carousel-desc a{
+     
+    color: rgb(248, 244, 244);
+    font-style: italic;
+  }
+   
+  .carousel-image {
+    width:100%;
+    height: 30%;
+    filter:hue-rotate(90deg)
   }
   
   .item img {
@@ -211,19 +231,7 @@ body {
       min-height: 300px;
   }
 
-  .carousel-desc {
-    background: rgba(255, 255, 255, 0.7);
-     color: blueviolet;
-    border-radius: 60px;
-  }
-
-  .carousel-image {
-    width:100%;
-    height: 30%;
-    filter:hue-rotate(90deg)
-  }
-
-  /* MAP */
+   /* MAP */
   .mapouter {
     position: relative;
     text-align: right;
@@ -243,11 +251,14 @@ body {
 }
 .shadow_div {
   box-shadow: 10px 10px 5px rgb(189, 170, 181);
+  color: #45099b;
   border-radius: 10px;
   height: 175px;
   transition: 1s ease;
   cursor: pointer;
+  
 }
+
 .shadow_div:hover {
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
@@ -255,7 +266,15 @@ body {
   transition: 1s ease;
   cursor: pointer;
 }
-
+.teammember{
+  opacity:.7;
+  transition: 1s ease;
+}
+.teammember:hover{
+  opacity:1;
+  transition: 1s ease;
+ 
+}
 
 .list{
     font-size: 19px;
@@ -308,9 +327,9 @@ body {
 .sidelogo:hover
 {
   opacity:1;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
   transition: 1s ease;
   cursor: pointer;
   color: #6a469c;
