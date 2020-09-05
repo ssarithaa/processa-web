@@ -215,7 +215,7 @@ body {
   .carousel-desc ,.carousel-desc span, .carousel-desc a{
      
     color: rgb(248, 244, 244);
-    font-style: italic;
+    font-size: smaller;
   }
    
   .carousel-image {
@@ -270,7 +270,7 @@ body {
   opacity:.7;
   transition: 1s ease;
 }
-.teammember:hover{
+.teammember:hover, .teammember:focus{
   opacity:1;
   transition: 1s ease;
  
