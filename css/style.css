@@ -267,13 +267,17 @@ body {
   cursor: pointer;
 }
 .teammember{
-  opacity:.7;
+  opacity:.8;
   transition: 1s ease;
 }
 .teammember:hover, .teammember:focus{
   opacity:1;
   transition: 1s ease;
  
+}
+.teammember h3 {
+  color:#6a469c;
+  font-weight: bolder;
 }
 
 .list{
@@ -315,7 +319,7 @@ body {
 }
 
 .logoMenu {
-  color:#3a69f5;
+  color:#6a469c;
   font-weight: bold;
 }
 .sidelogo
@@ -334,4 +338,26 @@ body {
   cursor: pointer;
   color: #6a469c;
   font-weight: bolder;
+}
+
+.sitemap {
+  font-size: smaller;
+  text-align: left;
+}
+.sitemap a{
+  font-size: small;
+  color: #6a469c;
+}
+.sitemap li {
+  
+  margin-left: -30px;
+  
+}
+.sitemap li a{
+  color: #6a469c;
+  font-size: smaller;
+}
+
+.sitemapborder {
+  border-left: 1px solid #ebebf8;
 }
