@@ -256,13 +256,13 @@ body {
   height: 175px;
   transition: 1s ease;
   cursor: pointer;
-  
+  transform: scale(0.9);
 }
 
 .shadow_div:hover {
-  -webkit-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  transform: scale(0.9);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
   transition: 1s ease;
   cursor: pointer;
 }
