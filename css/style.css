@@ -361,3 +361,42 @@ body {
 .sitemapborder {
   border-left: 1px solid #ebebf8;
 }
+
+/* ANIMATIONS */
+/* Zoom-n-rotate Container */
+.img-hover-zoom--zoom-n-rotate img {
+  transition: transform 2s ease-in-out;
+  transform: scale(0.6);
+}
+
+/* The Transformation */
+.img-hover-zoom--zoom-n-rotate:hover img {
+  transform: scale(1) rotate(10deg);
+
+}
+
+.img-hover-zoom--slowmo img {
+  transform-origin: 50% 65%;
+  transition: transform 3s, filter 3s ease-in-out;
+  transform: scale(0.8);
+  
+}
+
+/* The Transformation */
+.img-hover-zoom--slowmo:hover img{
+ 
+  transform: scale(1.1);
+}
+
+/* Blur-zoom Container */
+.img-hover-zoom--blur img {
+  transition: transform 2s, filter 3s ease-in-out;
+ 
+  transform: scale(0.9);
+}
+
+/* The Transformation */
+.img-hover-zoom--blur:hover img {
+  filter: blur(0.8);
+  transform: scale(1.1);
+}
